@@ -17,4 +17,12 @@ end
    for j in 0...n do                    
       c[i][j] = a[i][j] + b[i][j]      
    end  
+end 
+
+
+c.each do |r|
+  puts r.map { |p| p }.join(" ")
 end
+
+
+
