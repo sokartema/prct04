@@ -34,3 +34,11 @@ end
 
 end
 
+
+
+c.each do |r|
+
+puts r.map { |p| p }.join(" ")
+end
+
+
