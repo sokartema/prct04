@@ -13,7 +13,6 @@ for i in 0...m do
    end  
 end  
 
-<<<<<<< HEAD
 
 for z in 0...m do
 
@@ -35,6 +34,7 @@ end
 
 end
 
+puts "PRODUCTO"
 
 
 c.each do |r|
@@ -42,14 +42,15 @@ c.each do |r|
 puts r.map { |p| p }.join(" ")
 end
 
+puts "                 "
 
-=======
  for i in 0...m do                       
    for j in 0...n do                    
       c[i][j] = a[i][j] + b[i][j]      
    end  
 end 
 
+puts "SUMA"
 
 c.each do |r|
   puts r.map { |p| p }.join(" ")
@@ -57,4 +58,4 @@ end
 
 
 
->>>>>>> suma
+
