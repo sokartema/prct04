@@ -37,10 +37,21 @@ end
 puts "PRODUCTO"
 
 
-c.each do |r|
+for i in 0...m do
 
-puts r.map { |p| p }.join(" ")
+for j in 0...n do
+
+print c[i][j]
+
+print " "
+
 end
+
+puts ""
+
+end
+
+
 
 puts "                 "
 
@@ -52,8 +63,19 @@ end
 
 puts "SUMA"
 
-c.each do |r|
-  puts r.map { |p| p }.join(" ")
+
+for i in 0...m do
+
+for j in 0...n do
+
+print c[i][j]
+
+print " "
+
+end
+
+puts ""
+
 end
 
 
