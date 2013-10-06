@@ -13,3 +13,24 @@ for i in 0...m do
    end  
 end  
 
+
+for z in 0...m do
+
+for i in 0...m do
+
+	x = 0
+	
+	for j in 0...n do
+
+	x += a[i][j]*b[j][z]
+
+	
+end	
+	
+	c[i][z] = x;
+
+
+end
+
+end
+
