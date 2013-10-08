@@ -4,10 +4,12 @@ a = [[3, 6, 2], [4, 0, 3], [0, 1, 1]]
 b = [[5, 2, 2], [6, 4, 7], [2, 2, 0]]   
 c = [[0,0,0],[0,0,0],[0,0,0]]                          
 
-m, n = a.size, a[1].size                
+              
 
 
+def producto(a,b,c)
 
+m, n = a.size, a[1].size   
 for z in 0...m do
 
 for i in 0...m do
@@ -47,7 +49,14 @@ end
 
 
 
+
 puts "                 "
+
+end
+
+def suma(a,b,c)
+
+m, n = a.size, a[1].size  
 
  for i in 0...m do                       
    for j in 0...n do                    
@@ -71,6 +80,14 @@ end
 puts ""
 
 end
+
+end
+
+suma(a,b,c)
+producto(a,b,c)
+
+
+
 
 
 
